@@ -1,0 +1,31 @@
+#load individual Objects
+choice.m_db<-readRDS( "data/choice.m_db.rds")
+choice.a_db<-readRDS( "data/choice.a_db.rds")
+choice_date1<-readRDS( "data/choice_date1.rds")
+choice_date2<-readRDS( "data/choice_date2.rds")
+
+ur.t.table<-readRDS( "data/ur.t.table.rds")
+ur.m_sf<-readRDS( "data/ur.m_sf.rds")
+ur.a_sf<-readRDS( "data/ur.a_sf.rds")
+choice_ur<-readRDS( "data/choice_ur.rds")
+
+co.t.table<-readRDS( "data/co.t.table.rds")
+co.m_sf<-readRDS( "data/co.m_sf.rds")
+co.a_sf<-readRDS( "data/co.a_sf.rds")
+choice_co<-readRDS( "data/choice_co.rds")
+
+jo.t.table<-readRDS( "data/jo.t.table.rds")
+jo.m_sf<-readRDS( "data/jo.m_sf.rds")
+jo.a_sf<-readRDS( "data/jo.a_sf.rds")
+choice_jo<-readRDS( "data/choice_jo.rds")
+
+aw.t.table<-readRDS( "data/aw.t.table.rds")
+aw.m_sf<-readRDS( "data/aw.m_sf.rds")
+aw.a_sf<-readRDS( "data/aw.a_sf.rds")
+choice_aw<-readRDS( "data/choice_aw.rds")
+
+af.t.table<-readRDS( "data/af.t.table.rds")
+af.m_sf<-readRDS( "data/af.m_sf.rds")
+af.a_sf<-readRDS( "data/af.a_sf.rds")
+choice_af<-readRDS( "data/choice_af.rds")
+
